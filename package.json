@@ -1,0 +1,18 @@
+{
+  "name": "angular2-web-worker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc; browserify dist/main.js -o dist/bundled.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular2-web-worker": "0.0.5"
+  },
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "typescript": "^2.1.6"
+  }
+}
